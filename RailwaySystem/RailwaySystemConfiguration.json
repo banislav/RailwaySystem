@@ -1,0 +1,42 @@
+{
+  "Stations": [
+    "St1",
+    "St2",
+    "St3"
+  ],
+  "Trains": [
+    {
+      "Speed": 10,
+      "Route": [
+        "St1",
+        "St2",
+        "St3"
+      ]
+    },
+    {
+      "Speed": 20,
+      "Route": [
+        "St2",
+        "St3",
+        "St1"
+      ]
+    }
+  ],
+  "Roads": [
+    {
+      "Length": "23",
+      "DepartureStation": "St1",
+      "ArrivalStation": "St2"
+    },
+    {
+      "Length": "14",
+      "DepartureStation": "St2",
+      "ArrivalStation": "St3"
+    },
+    {
+      "Length": "38",
+      "DepartureStation": "St3",
+      "ArrivalStation": "St1"
+    }
+  ]
+}

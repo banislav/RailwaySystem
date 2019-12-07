@@ -1,0 +1,17 @@
+/home/danya-lapin/sandbox/RailwaySystem/RailwaySystemTest/bin/Debug/netcoreapp2.2/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/home/danya-lapin/sandbox/RailwaySystem/RailwaySystemTest/bin/Debug/netcoreapp2.2/xunit.runner.reporters.netcoreapp10.dll
+/home/danya-lapin/sandbox/RailwaySystem/RailwaySystemTest/bin/Debug/netcoreapp2.2/xunit.runner.utility.netcoreapp10.dll
+/home/danya-lapin/sandbox/RailwaySystem/RailwaySystemTest/bin/Debug/netcoreapp2.2/RailwaySystemTest.deps.json
+/home/danya-lapin/sandbox/RailwaySystem/RailwaySystemTest/bin/Debug/netcoreapp2.2/RailwaySystemTest.runtimeconfig.json
+/home/danya-lapin/sandbox/RailwaySystem/RailwaySystemTest/bin/Debug/netcoreapp2.2/RailwaySystemTest.runtimeconfig.dev.json
+/home/danya-lapin/sandbox/RailwaySystem/RailwaySystemTest/bin/Debug/netcoreapp2.2/RailwaySystemTest.dll
+/home/danya-lapin/sandbox/RailwaySystem/RailwaySystemTest/bin/Debug/netcoreapp2.2/RailwaySystemTest.pdb
+/home/danya-lapin/sandbox/RailwaySystem/RailwaySystemTest/bin/Debug/netcoreapp2.2/RailwaySystem.dll
+/home/danya-lapin/sandbox/RailwaySystem/RailwaySystemTest/bin/Debug/netcoreapp2.2/RailwaySystem.pdb
+/home/danya-lapin/sandbox/RailwaySystem/RailwaySystemTest/obj/Debug/netcoreapp2.2/RailwaySystemTest.csprojAssemblyReference.cache
+/home/danya-lapin/sandbox/RailwaySystem/RailwaySystemTest/obj/Debug/netcoreapp2.2/RailwaySystemTest.csproj.CoreCompileInputs.cache
+/home/danya-lapin/sandbox/RailwaySystem/RailwaySystemTest/obj/Debug/netcoreapp2.2/RailwaySystemTest.AssemblyInfoInputs.cache
+/home/danya-lapin/sandbox/RailwaySystem/RailwaySystemTest/obj/Debug/netcoreapp2.2/RailwaySystemTest.AssemblyInfo.cs
+/home/danya-lapin/sandbox/RailwaySystem/RailwaySystemTest/obj/Debug/netcoreapp2.2/RailwaySystemTest.csproj.CopyComplete
+/home/danya-lapin/sandbox/RailwaySystem/RailwaySystemTest/obj/Debug/netcoreapp2.2/RailwaySystemTest.dll
+/home/danya-lapin/sandbox/RailwaySystem/RailwaySystemTest/obj/Debug/netcoreapp2.2/RailwaySystemTest.pdb
