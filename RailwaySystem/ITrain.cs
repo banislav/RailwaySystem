@@ -4,7 +4,9 @@ namespace RailwaySystem
 {
     public interface ITrain
     {
-        int Speed { get; } 
+        int Speed { get; }
+
+        bool ReachedFinalDestination { get; set; }
 //        string StartPosition { get; } 
         int DistanceTravelledOnCurrentRoad { get; set; } 
         Queue<IStation> Route { get; set; } 

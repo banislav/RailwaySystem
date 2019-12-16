@@ -689,10 +689,11 @@
       ]
     },
     "Newtonsoft.Json/12.0.3-beta2": {
-      "sha512": "ndJYhgHe8Ng+bklYQfFUOW0HADOGOyRL22GjKGNbzjzQD8l/piXe+DO8WCUKAX+yUL6EGU2vNoU6zY5ryFCClg==",
+      "sha512": "CNkBl+FKCsp1Tw7MKCpSOCKfZIElxOOBhG46VnFV2G0hRCC1Cc2UUJDknETNGeymXN1/k6hxd44uGVZvdwyEsQ==",
       "type": "package",
       "path": "newtonsoft.json/12.0.3-beta2",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
@@ -732,11 +733,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/danya-lapin/sandbox/RailwaySystem/RailwaySystem/RailwaySystem.csproj",
+      "projectUniqueName": "/home/danya-lapin/projects/RailwaySystem/RailwaySystem/RailwaySystem/RailwaySystem.csproj",
       "projectName": "RailwaySystem",
-      "projectPath": "/home/danya-lapin/sandbox/RailwaySystem/RailwaySystem/RailwaySystem.csproj",
+      "projectPath": "/home/danya-lapin/projects/RailwaySystem/RailwaySystem/RailwaySystem/RailwaySystem.csproj",
       "packagesPath": "/home/danya-lapin/.nuget/packages/",
-      "outputPath": "/home/danya-lapin/sandbox/RailwaySystem/RailwaySystem/obj/",
+      "outputPath": "/home/danya-lapin/projects/RailwaySystem/RailwaySystem/RailwaySystem/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"

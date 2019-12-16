@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 //TODO: Interfaces
 namespace RailwaySystem
@@ -9,6 +10,7 @@ namespace RailwaySystem
         private readonly List<IStation> _stations;
         private readonly List<ITrain> _trains;
         private readonly List<IRoad> _roads;
+        public bool IsCrashed { get; private set; }
 
         public RailwaySystem(List<ITrain> trains, List<IStation> stations, List<IRoad> roads)
         {
@@ -48,6 +50,7 @@ namespace RailwaySystem
                         !t.ArrivalStation.Equals(train.ArrivalStation))
                     {
                         Console.Write(train.ArrivalStation.Name + t.ArrivalStation.Name);
+                        IsCrashed = true;
                         return true;
                     }
 
@@ -58,11 +61,17 @@ namespace RailwaySystem
                         t.Speed < train.Speed &&
                         train.ArrivalStation.Equals(t.ArrivalStation))
                     {
+                        IsCrashed = true;
+                        return true;
+                    }
+                    
+                    if (_trains.All(tr => tr.ReachedFinalDestination))
+                    {
                         return true;
                     }
                 }
             }
-
+            
             return false;
         }
     }

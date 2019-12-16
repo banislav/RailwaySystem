@@ -13,9 +13,16 @@ namespace RailwaySystem
             while (true)
             {
                 var result = railwaySystem.MakeStep();
-                if (result)
+
+                if (result && railwaySystem.IsCrashed)
                 {
-                    Console.Write("Crash, {0}", counter);
+                    Console.WriteLine("Crash, {0}", counter);
+                    break;
+                }
+
+                if (result && !railwaySystem.IsCrashed)
+                {
+                    Console.WriteLine("Ok");
                     break;
                 }
 

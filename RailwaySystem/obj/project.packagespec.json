@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/home/danya-lapin/sandbox/RailwaySystem/RailwaySystem/RailwaySystem.csproj",
+    "projectUniqueName": "/home/danya-lapin/projects/RailwaySystem/RailwaySystem/RailwaySystem/RailwaySystem.csproj",
     "projectName": "RailwaySystem",
-    "projectPath": "/home/danya-lapin/sandbox/RailwaySystem/RailwaySystem/RailwaySystem.csproj",
-    "outputPath": "/home/danya-lapin/sandbox/RailwaySystem/RailwaySystem/obj/",
+    "projectPath": "/home/danya-lapin/projects/RailwaySystem/RailwaySystem/RailwaySystem/RailwaySystem.csproj",
+    "outputPath": "/home/danya-lapin/projects/RailwaySystem/RailwaySystem/RailwaySystem/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/share/dotnet/sdk/NuGetFallbackFolder"

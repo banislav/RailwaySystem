@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/danya-lapin/sandbox/RailwaySystem/RailwaySystemTest/RailwaySystemTest.csproj": {}
+    "/home/danya-lapin/projects/RailwaySystem/RailwaySystem/RailwaySystemTest/RailwaySystemTest.csproj": {}
   },
   "projects": {
-    "/home/danya-lapin/sandbox/RailwaySystem/RailwaySystem/RailwaySystem.csproj": {
+    "/home/danya-lapin/projects/RailwaySystem/RailwaySystem/RailwaySystem/RailwaySystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/danya-lapin/sandbox/RailwaySystem/RailwaySystem/RailwaySystem.csproj",
+        "projectUniqueName": "/home/danya-lapin/projects/RailwaySystem/RailwaySystem/RailwaySystem/RailwaySystem.csproj",
         "projectName": "RailwaySystem",
-        "projectPath": "/home/danya-lapin/sandbox/RailwaySystem/RailwaySystem/RailwaySystem.csproj",
+        "projectPath": "/home/danya-lapin/projects/RailwaySystem/RailwaySystem/RailwaySystem/RailwaySystem.csproj",
         "packagesPath": "/home/danya-lapin/.nuget/packages/",
-        "outputPath": "/home/danya-lapin/sandbox/RailwaySystem/RailwaySystem/obj/",
+        "outputPath": "/home/danya-lapin/projects/RailwaySystem/RailwaySystem/RailwaySystem/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -58,14 +58,14 @@
         }
       }
     },
-    "/home/danya-lapin/sandbox/RailwaySystem/RailwaySystemTest/RailwaySystemTest.csproj": {
+    "/home/danya-lapin/projects/RailwaySystem/RailwaySystem/RailwaySystemTest/RailwaySystemTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/danya-lapin/sandbox/RailwaySystem/RailwaySystemTest/RailwaySystemTest.csproj",
+        "projectUniqueName": "/home/danya-lapin/projects/RailwaySystem/RailwaySystem/RailwaySystemTest/RailwaySystemTest.csproj",
         "projectName": "RailwaySystemTest",
-        "projectPath": "/home/danya-lapin/sandbox/RailwaySystem/RailwaySystemTest/RailwaySystemTest.csproj",
+        "projectPath": "/home/danya-lapin/projects/RailwaySystem/RailwaySystem/RailwaySystemTest/RailwaySystemTest.csproj",
         "packagesPath": "/home/danya-lapin/.nuget/packages/",
-        "outputPath": "/home/danya-lapin/sandbox/RailwaySystem/RailwaySystemTest/obj/",
+        "outputPath": "/home/danya-lapin/projects/RailwaySystem/RailwaySystem/RailwaySystemTest/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -82,8 +82,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "/home/danya-lapin/sandbox/RailwaySystem/RailwaySystem/RailwaySystem.csproj": {
-                "projectPath": "/home/danya-lapin/sandbox/RailwaySystem/RailwaySystem/RailwaySystem.csproj"
+              "/home/danya-lapin/projects/RailwaySystem/RailwaySystem/RailwaySystem/RailwaySystem.csproj": {
+                "projectPath": "/home/danya-lapin/projects/RailwaySystem/RailwaySystem/RailwaySystem/RailwaySystem.csproj"
               }
             }
           }

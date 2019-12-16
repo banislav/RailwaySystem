@@ -3,11 +3,19 @@ using System.Collections.Generic;
 
 namespace RailwaySystem
 {
+    // ReSharper disable once ClassNeverInstantiated.Global
     public class RailwaySystemRaw
     {
+        // ReSharper disable MemberCanBePrivate.Global
+        // ReSharper disable CollectionNeverUpdated.Global
+        // ReSharper disable UnusedAutoPropertyAccessor.Global
         public List<TrainRaw> Trains { get; set; }
         public List<string> Stations { get; set; }
         public List<RoadRaw> Roads { get; set; }
+        // ReSharper restore UnusedAutoPropertyAccessor.Global
+        // ReSharper restore CollectionNeverUpdated.Global
+        // ReSharper restore MemberCanBePrivate.Global
+
 
 //        public RailwaySystemRaw()
 //        {

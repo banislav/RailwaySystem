@@ -9,15 +9,19 @@ namespace RailwaySystem
             Speed = speed;
             Route = route;
             DistanceTravelledOnCurrentRoad = 0;
+            ReachedFinalDestination = false;
         }
 
         public Train(int speed)
         {
             Speed = speed;
             DistanceTravelledOnCurrentRoad = 0;
+            ReachedFinalDestination = false;
         }
 
-        public int Speed { get; } 
+        public int Speed { get; }
+        
+        public bool ReachedFinalDestination { get; set; }
 
         public int DistanceTravelledOnCurrentRoad { get; set; } 
 
@@ -32,6 +36,11 @@ namespace RailwaySystem
             DistanceTravelledOnCurrentRoad = DistanceTravelledOnCurrentRoad - CurrentRoad.Length;
             DepartureStation = ArrivalStation;
             Route.TryDequeue(out _);
+            if (Route.Count == 0)
+            {
+                ReachedFinalDestination = true;
+                return;
+            }
 
             if (Route.TryPeek(out var arrivalStation))
             {
