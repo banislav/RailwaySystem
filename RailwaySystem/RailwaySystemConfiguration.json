@@ -1,0 +1,63 @@
+{
+  "Stations": [
+    "Moskovskaya",
+    "Avtovo",
+    "Primorskaya",
+    "Devyatkino",
+    "Sennaya Ploschad",
+    "Mayakovskaya"
+  ],
+  "Trains": [
+    {
+      "Speed": 45,
+      "Route": [
+        "St1",
+        "St2",
+        "St3"
+      ]
+    },
+    {
+      "Speed": 52,
+      "Route": [
+        "St2",
+        "St3",
+        "St1"
+      ]
+    },
+    {
+      "Speed": 39,
+      "Route": [
+        ""
+      ]
+    },
+    {
+      "Speed": 60,
+      "Route": [
+        ""
+      ]
+    },
+    {
+      "Speed": 72,
+      "Route": [
+        ""
+      ]
+    }
+  ],
+  "Roads": [
+    {
+      "Length": 123,
+      "DepartureStation": "St1",
+      "ArrivalStation": "St2"
+    },
+    {
+      "Length": 154,
+      "DepartureStation": "St2",
+      "ArrivalStation": "St3"
+    },
+    {
+      "Length": 95,
+      "DepartureStation": "St3",
+      "ArrivalStation": "St1"
+    }
+  ]
+}

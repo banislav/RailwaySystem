@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2019.2/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.2/system/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_RailwaySystem.660538575.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.0/build/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.0/build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.0/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="RailwaySystem" t="IncludeRecursive">
+        <e p="Configurator.cs" t="Include" />
+        <e p="IRoad.cs" t="Include" />
+        <e p="IStation.cs" t="Include" />
+        <e p="ITrain.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="RailwaySystem.cs" t="Include" />
+        <e p="RailwaySystem.csproj" t="IncludeRecursive" />
+        <e p="RailwaySystemConfiguration.json" t="Include" />
+        <e p="RailwaySystemRaw.cs" t="Include" />
+        <e p="Road.cs" t="Include" />
+        <e p="RoadRaw.cs" t="Include" />
+        <e p="Station.cs" t="Include" />
+        <e p="Train.cs" t="Include" />
+        <e p="TrainRaw.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="RailwaySystem.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="RailwaySystem.sln" t="IncludeFlat" />
+      <e p="RailwaySystemTest" t="IncludeRecursive">
+        <e p="RailwaySystemTest.cs" t="Include" />
+        <e p="RailwaySystemTest.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="RailwaySystemTest.AssemblyInfo.cs" t="Include" />
+              <e p="RailwaySystemTest.Program.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
