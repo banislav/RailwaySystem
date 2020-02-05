@@ -12,13 +12,6 @@ namespace RailwaySystem
             ReachedFinalDestination = false;
         }
 
-        public Train(int speed)
-        {
-            Speed = speed;
-            DistanceTravelledOnCurrentRoad = 0;
-            ReachedFinalDestination = false;
-        }
-
         public int Speed { get; }
         
         public bool ReachedFinalDestination { get; set; }
@@ -35,8 +28,8 @@ namespace RailwaySystem
         {
             DistanceTravelledOnCurrentRoad = DistanceTravelledOnCurrentRoad - CurrentRoad.Length;
             DepartureStation = ArrivalStation;
-            Route.TryDequeue(out _);
-            if (Route.Count == 0)
+            
+            if (!Route.TryDequeue(out _))
             {
                 ReachedFinalDestination = true;
                 return;
@@ -46,21 +39,13 @@ namespace RailwaySystem
             {
                 ArrivalStation = arrivalStation;
             }
-//            //TODO: Hashmap or dictionary
-//            CurrentRoad = DepartureStation.RoadList[ArrivalStation];
+            else
+            {
+                ReachedFinalDestination = true;
+                return;
+            }
             CurrentRoad = DepartureStation.RoadList.ContainsKey(ArrivalStation) ? DepartureStation.RoadList[ArrivalStation] : 
                 ArrivalStation.RoadList[DepartureStation];
-//            foreach (var road in ArrivalStation.RoadList)
-//            {
-//                foreach (var road1 in DepartureStation.RoadList)
-//                {
-//                    if (road1.Equals(road))
-//                    {
-//                        CurrentRoad = road;
-//                    }
-//                }
-//            }
-
         }
     }
 }

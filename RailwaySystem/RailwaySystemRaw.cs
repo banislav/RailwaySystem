@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 
 namespace RailwaySystem
@@ -15,12 +14,7 @@ namespace RailwaySystem
         // ReSharper restore UnusedAutoPropertyAccessor.Global
         // ReSharper restore CollectionNeverUpdated.Global
         // ReSharper restore MemberCanBePrivate.Global
-
-
-//        public RailwaySystemRaw()
-//        {
-//            
-//        }
+        
 
         public RailwaySystem ConvertToRailwaySystem()
         {
@@ -35,8 +29,7 @@ namespace RailwaySystem
             var railwaySystem = new RailwaySystem(trainsTemp, stationsTemp, roadsTemp);
             return railwaySystem;
         }
-        //TODO: use ConvertRoads to create RoadList for each station
-        private List<IStation> ConvertStations(List<IStation> stationsTemp)
+        public List<IStation> ConvertStations(List<IStation> stationsTemp)
         {
             foreach (var stationName in Stations)
             {
@@ -46,7 +39,7 @@ namespace RailwaySystem
             return stationsTemp;
         }
 
-        private List<IRoad> ConvertRoads(IReadOnlyCollection<IStation> stationsTemp, List<IRoad> roadsTemp)
+        public List<IRoad> ConvertRoads(IReadOnlyCollection<IStation> stationsTemp, List<IRoad> roadsTemp)
         {
             foreach (var roadRaw in Roads)
             {
@@ -56,34 +49,24 @@ namespace RailwaySystem
                     if (station.Name.Equals(roadRaw.ArrivalStation))
                     {
                         road.ArrivalStation = station;
-//                        if(station.RoadList.ContainsValue(road))
-//                        {
-//                            station.RoadList.Add(road.DepartureStation, road);
-//                        }
                     }
 
                     if (station.Name.Equals(roadRaw.DepartureStation))
                     {
                         road.DepartureStation = station;
-//                        if (road.ArrivalStation != null) 
-//                        {
-//                            station.RoadList.Add(road.ArrivalStation, road);
-//                        }
                     }
                 }
 
-                if (road.ArrivalStation != null && road.DepartureStation != null)
-                {
-                    road.ArrivalStation.RoadList[road.DepartureStation] = road;
-                    road.DepartureStation.RoadList[road.ArrivalStation] = road;
-                    roadsTemp.Add(road);    
-                }
-                
+                if (road.ArrivalStation == null || road.DepartureStation == null) continue;
+                road.ArrivalStation.RoadList[road.DepartureStation] = road;
+                road.DepartureStation.RoadList[road.ArrivalStation] = road;
+                roadsTemp.Add(road);
+
             }
             return roadsTemp;
         }
 
-        private List<ITrain> ConvertTrains(IReadOnlyCollection<IStation> stationsTemp, List<ITrain> trainsTemp)
+        public List<ITrain> ConvertTrains(IReadOnlyCollection<IStation> stationsTemp, List<ITrain> trainsTemp)
         {
             foreach (var trainRaw in Trains)
             {
@@ -103,6 +86,5 @@ namespace RailwaySystem
             }
             return trainsTemp;
         }
-        
     }
 }

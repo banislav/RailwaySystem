@@ -2,7 +2,9 @@
 
 namespace RailwaySystem
 {
-    class Program
+    // ReSharper disable once ClassNeverInstantiated
+    // ReSharper disable once ArrangeTypeModifiers
+    internal static class Program
     {
         static void Main()
         {
@@ -16,7 +18,8 @@ namespace RailwaySystem
 
                 if (result && railwaySystem.IsCrashed)
                 {
-                    Console.WriteLine("Crash, {0}", counter);
+                    Console.WriteLine($"Crash on {counter} turn");
+                    Console.WriteLine(railwaySystem.GetCrashInfo());
                     break;
                 }
 

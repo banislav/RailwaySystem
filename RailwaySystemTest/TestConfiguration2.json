@@ -1,0 +1,126 @@
+{
+  "Stations": [
+    "Moskovskaya",
+    "Avtovo",
+    "Primorskaya",
+    "Devyatkino",
+    "Sennaya Ploschad",
+    "Mayakovskaya"
+  ],
+  "Trains": [
+    {
+      "Speed": 45,
+      "Route": [
+        "Devyatkino",
+        "Mayakovskaya",
+        "Primorskaya",
+        "Sennaya Ploschad",
+        "Avtovo"
+      ]
+    },
+    {
+      "Speed": 52,
+      "Route": [
+        "Mayakovskaya",
+        "Moskovskaya",
+        "Devyatkino",
+        "Primorskaya"
+      ]
+    },
+    {
+      "Speed": 39,
+      "Route": [
+        "Moskovskaya",
+        "Devyatkino",
+        "Avtovo",
+        "Sennaya Ploschad"
+      ]
+    },
+    {
+      "Speed": 60,
+      "Route": [
+        "Devyatkino",
+        "Moskovskaya",
+        "Mayakovskaya",
+        "Avtovo"
+      ]
+    },
+    {
+      "Speed": 72,
+      "Route": [
+        "Sennaya Ploschad",
+        "Avtovo",
+        "Devyatkino"
+      ]
+    },
+    {
+      "Speed": 60,
+      "Route": [
+        "Moskovskaya",
+        "Mayakovskaya",
+        "Devyatkino"
+      ]
+    },
+    {
+      "Speed": 15,
+      "Route": [
+        "Devyatkino",
+        "Moskovskaya",
+        "Devyatkino",
+        "Moskovskaya"
+      ]
+    }
+  ],
+  "Roads": [
+    {
+      "Length": 123,
+      "DepartureStation": "Avtovo",
+      "ArrivalStation": "Mayakovskaya"
+    },
+    {
+      "Length": 154,
+      "DepartureStation": "Avtovo",
+      "ArrivalStation": "Devyatkino"
+    },
+    {
+      "Length": 95,
+      "DepartureStation": "Avtovo",
+      "ArrivalStation": "Sennaya Ploschad"
+    },
+    {
+      "Length": 123,
+      "DepartureStation": "Sennaya Ploschad",
+      "ArrivalStation": "Primorskaya"
+    },
+    {
+      "Length": 154,
+      "DepartureStation": "Primorskaya",
+      "ArrivalStation": "Devyatkino"
+    },
+    {
+      "Length": 95,
+      "DepartureStation": "Primorskaya",
+      "ArrivalStation": "Moskovskaya"
+    },
+    {
+      "Length": 95,
+      "DepartureStation": "Mayakovskaya",
+      "ArrivalStation": "Moskovskaya"
+    },
+    {
+      "Length": 100,
+      "DepartureStation": "Mayakovskaya",
+      "ArrivalStation": "Devyatkino"
+    },
+    {
+      "Length": 100,
+      "DepartureStation": "Devyatkino",
+      "ArrivalStation": "Moskovskaya"
+    },
+    {
+      "Length": 100,
+      "DepartureStation": "Primorskaya",
+      "ArrivalStation": "Mayakovskaya"
+    }
+  ]
+}
